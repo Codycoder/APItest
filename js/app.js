@@ -7,7 +7,7 @@ function append(parent, el) {
 }
 
 const ul = document.getElementById('authors');
-const url = 'https://randomuser.me/api/?results=10';
+const url = 'https://api.weather.gov/gridpoints/TOP/31,80/forecast';
 fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
